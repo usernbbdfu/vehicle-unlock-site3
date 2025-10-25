@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mid-Atlantic Vehicle Access - 24/7 Car Door Unlock Services</title>
+    <meta name="description" content="Locked out of your car in Maryland? Professional vehicle access specialists provide fast, affordable 24/7 roadside car door unlock service. Expert automotive technicians ready to help!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Mid-Atlantic Vehicle Access",
+      "description": "Professional roadside vehicle door unlock assistance",
+      "telephone": "+19178627925",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "MD",
+        "addressCountry": "US"
+      },
+      "serviceArea": {
+        "@type": "State",
+        "name": "Maryland"
+      },
+      "openingHours": "Mo-Su 00:00-23:59",
+      "priceRange": "$$"
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8fafc;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+            opacity: 0.3;
+        }
+        
+        .header-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #ef4444;
+            color: white;
+            padding: 18px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.3rem;
+            box-shadow: 0 8px 25px rgba(239, 68, 68, 0.3);
+            transition: all 0.3s ease;
+            border: 3px solid transparent;
+        }
+        
+        .cta-button:hover {
+            background-color: #dc2626;
+            transform: translateY(-2px);
+            box-shadow: 0 12px 35px rgba(239, 68, 68, 0.4);
+            border-color: rgba(255,255,255,0.3);
+        }
+        
+        /* Alert Bar */
+        .alert-bar {
+            background: linear-gradient(90deg, #dc2626, #ef4444, #dc2626);
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            font-weight: 600;
+            animation: pulse-bg 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse-bg {
+            0%, 100% { background: linear-gradient(90deg, #dc2626, #ef4444, #dc2626); }
+            50% { background: linear-gradient(90deg, #b91c1c, #dc2626, #b91c1c); }
+        }
+        
+        /* Main Content */
+        .main-content {
+            padding: 60px 0;
+            background: white;
+        }
+        
+        .hero-section {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .hero-section h2 {
+            font-size: 2.5rem;
+            color: #1e40af;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .hero-section p {
+            font-size: 1.2rem;
+            color: #64748b;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            line-height: 1.8;
+        }
+        
+        .hero-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+            margin: 40px 0;
+        }
+        
+        /* Services Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+        
+        .service-card {
+            background: #f8fafc;
+            padding: 40px 30px;
+            border-radius: 15px;
+            text-align: center;
+            border: 2px solid #e2e8f0;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.1), transparent);
+            transition: left 0.5s ease;
+        }
+        
+        .service-card:hover::before {
+            left: 100%;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+            border-color: #3b82f6;
+        }
+        
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            display: block;
+        }
+        
+        .service-card h3 {
+            font-size: 1.5rem;
+            color: #1e40af;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .service-card p {
+            color: #64748b;
+            line-height: 1.6;
+        }
+        
+        /* Process Section */
+        .process-section {
+            background: #f1f5f9;
+            padding: 80px 0;
+        }
+        
+        .process-section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #1e40af;
+            margin-bottom: 60px;
+            font-weight: 700;
+        }
+        
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+        
+        .process-step {
+            text-align: center;
+            position: relative;
+        }
+        
+        .step-number {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #3b82f6, #1e40af);
+            color: white;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            box-shadow: 0 8px 25px rgba(59, 130, 246, 0.3);
+        }
+        
+        .process-step h3 {
+            font-size: 1.3rem;
+            color: #1e40af;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .process-step p {
+            color: #64748b;
+            line-height: 1.6;
+        }
+        
+        /* Areas Section */
+        .areas-section {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .areas-section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #1e40af;
+            margin-bottom: 60px;
+            font-weight: 700;
+        }
+        
+        .areas {
+            background: #f8fafc;
+            padding: 40px;
+            border-radius: 15px;
+            border: 2px solid #e2e8f0;
+            line-height: 2;
+            font-size: 1.1rem;
+        }
+        
+        .areas strong {
+            color: #1e40af;
+            font-weight: 600;
+        }
+        
+        .areas em {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1.2rem;
+            color: #3b82f6;
+            font-weight: 600;
+        }
+        
+        /* Contact Section */
+        .contact-section {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .contact-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .contact-section p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            opacity: 0.95;
+        }
+        
+        .contact-methods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .contact-method {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .contact-method:hover {
+            background: rgba(255,255,255,0.15);
+            transform: translateY(-5px);
+        }
+        
+        .contact-method h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .contact-method p {
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+        
+        .contact-link {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        
+        .contact-link:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+        
+        /* Footer */
+        .footer {
+            background: #1e293b;
+            color: white;
+            padding: 60px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-section h3 {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            color: #3b82f6;
+            font-weight: 600;
+        }
+        
+        .footer-section p, .footer-section li {
+            color: #cbd5e1;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section ul li::before {
+            content: "→ ";
+            color: #3b82f6;
+            font-weight: bold;
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid #334155;
+            padding-top: 30px;
+            text-align: center;
+            color: #94a3b8;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .header p {
+                font-size: 1rem;
+            }
+            
+            .cta-button {
+                padding: 15px 30px;
+                font-size: 1.1rem;
+            }
+            
+            .hero-section h2 {
+                font-size: 2rem;
+            }
+            
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-methods {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 0 15px;
+            }
+        }
+        
+        /* Animation Classes */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 0.8s ease forwards;
+        }
+        
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1>🚗 Locked Out? We'll Get You Back In!</h1>
+                <p>Fast, professional car door unlock service available 24/7 in the Mid-Atlantic region</p>
+                <a href="tel:+19178627925" class="cta-button">📞 Call Now: (917) 862-7925</a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Alert Bar -->
+    <div class="alert-bar">
+        <div class="container">
+            🚨 Available 24/7 • Professional Automotive Technicians • Roadside Vehicle Access • No Hidden Fees
+        </div>
+    </div>
+    
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Hero Section -->
+            <section class="hero-section fade-in">
+                <h2>Mid-Atlantic Vehicle Access - Professional Car Door Unlock</h2>
+                <p>Locked out of your car? Don't panic! Our experienced roadside technicians are standing by 24/7 to help you regain access to your vehicle quickly and safely.</p>
+                
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 400'%3E%3Crect fill='%23f1f5f9' width='800' height='400'/%3E%3Cg fill='%233b82f6' opacity='0.1'%3E%3Cpath d='M100 200c0-55 45-100 100-100s100 45 100 100-45 100-100 100-100-45-100-100z'/%3E%3Cpath d='M500 200c0-55 45-100 100-100s100 45 100 100-45 100-100 100-100-45-100-100z'/%3E%3C/g%3E%3Ctext x='400' y='200' text-anchor='middle' fill='%231e40af' font-size='24' font-weight='bold'%3EProfessional technician using specialized tools to unlock car door%3C/text%3E%3C/svg%3E" alt="Professional automotive service technicians available 24/7" class="hero-image">
+                
+                <p>Mid-Atlantic Vehicle Access uses professional automotive tools and techniques to unlock your vehicle without causing any damage. Our roadside service is fast, affordable, and available throughout Maryland including Baltimore, Washington DC metro area, and surrounding regions.</p>
+            </section>
+            
+            <!-- Services Grid -->
+            <section class="services-grid">
+                <div class="service-card fade-in">
+                    <span class="service-icon">⚡</span>
+                    <h3>Fast Response</h3>
+                    <p>Quick arrival times across the Mid-Atlantic region and surrounding areas</p>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <span class="service-icon">🔧</span>
+                    <h3>Specialized Equipment</h3>
+                    <p>Safe, damage-free entry using proper automotive access tools</p>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <span class="service-icon">💰</span>
+                    <h3>Fair Pricing</h3>
+                    <p>Transparent, upfront pricing with no hidden fees or surprises</p>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <span class="service-icon">🕐</span>
+                    <h3>24/7 Available</h3>
+                    <p>Day or night, weekends and holidays - we're always ready</p>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <span class="service-icon">🚗</span>
+                    <h3>All Vehicles</h3>
+                    <p>Cars, trucks, SUVs, vans - we work on all makes and models</p>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <span class="service-icon">📋</span>
+                    <h3>Licensed Service</h3>
+                    <p>Certified automotive technicians providing roadside assistance</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <h2>Our Roadside Vehicle Access Service</h2>
+            <div class="process-grid">
+                <div class="process-step fade-in">
+                    <div class="step-number">1</div>
+                    <h3>What We Do</h3>
+                    <p>Professional vehicle door unlock assistance when you're locked out</p>
+                </div>
+                
+                <div class="process-step fade-in">
+                    <div class="step-number">2</div>
+                    <h3>How We Help</h3>
+                    <p>Automotive technicians use specialized tools to regain vehicle access</p>
+                </div>
+                
+                <div class="process-step fade-in">
+                    <div class="step-number">3</div>
+                    <h3>Service Type</h3>
+                    <p>Roadside assistance for locked vehicle situations</p>
+                </div>
+                
+                <div class="process-step fade-in">
+                    <div class="step-number">4</div>
+                    <h3>Coverage</h3>
+                    <p>Cars, trucks, SUVs, and vans throughout the Mid-Atlantic area</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 300'%3E%3Crect fill='%23f8fafc' width='600' height='300'/%3E%3Ctext x='300' y='150' text-anchor='middle' fill='%231e40af' font-size='18' font-weight='bold'%3EProfessional automotive service technicians available 24/7%3C/text%3E%3C/svg%3E" alt="Professional automotive service technicians available 24/7" class="hero-image">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Areas Section -->
+    <section class="areas-section">
+        <div class="container">
+            <h2>Areas We Serve</h2>
+            <div class="areas">
+                <strong>Baltimore City:</strong> Downtown • Federal Hill • Canton • Fells Point • Inner Harbor • Mount Vernon • Charles Village • Hampden • Roland Park<br><br>
+                <strong>Baltimore County:</strong> Towson • Parkville • White Marsh • Dundalk • Essex • Rosedale • Lutherville-Timonium • Owings Mills • Pikesville • Cockeysville<br><br>
+                <strong>Howard County:</strong> Columbia • Ellicott City • Jessup • Elkridge • Laurel • Clarksville<br><br>
+                <strong>Anne Arundel County:</strong> Glen Burnie • Pasadena • Severna Park • Ferndale • Linthicum • Annapolis • Crofton • Odenton<br><br>
+                <strong>Harford County:</strong> Bel Air • Aberdeen • Havre de Grace • Edgewood • Joppa<br><br>
+                <strong>Carroll County:</strong> Westminster • Eldersburg • Sykesville • Mount Airy<br><br>
+                <em>Serving the entire Mid-Atlantic region including Maryland, DC metro area, and surrounding areas</em>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2>Get Help Now</h2>
+            <p>Multiple ways to reach us for immediate roadside assistance</p>
+            
+            <div class="contact-methods">
+                <div class="contact-method fade-in">
+                    <h3>📞 Call Directly</h3>
+                    <p>Fastest way to get immediate help for your vehicle lockout situation</p>
+                    <a href="tel:+19178627925" class="contact-link">Call (917) 862-7925</a>
+                </div>
+                
+                <div class="contact-method fade-in">
+                    <h3>💬 Text Message</h3>
+                    <p>Send us a text with your location and vehicle details for quick response</p>
+                    <a href="sms:+19178627925" class="contact-link">Text (917) 862-7925</a>
+                </div>
+                
+                <div class="contact-method fade-in">
+                    <h3>📧 Email Contact</h3>
+                    <p>For non-emergency questions or to request a callback</p>
+                    <a href="mailto:info@midatlantic-vehicleaccess.com?subject=Vehicle Unlock Service Request" class="contact-link">Send Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Mid-Atlantic Vehicle Access</h3>
+                    <p><strong>Phone:</strong> (917) 862-7925</p>
+                    <p><strong>Hours:</strong> 24/7</p>
+                    <p><strong>Service Area:</strong> Mid-Atlantic Region</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li>Car door unlock assistance</li>
+                        <li>Truck and SUV access</li>
+                        <li>Van unlock service</li>
+                        <li>24/7 roadside assistance</li>
+                        <li>Professional automotive technicians</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Service Information</h3>
+                    <p>Mid-Atlantic Vehicle Access - Professional roadside vehicle door unlock assistance.</p>
+                    <p>Licensed and insured automotive service technicians.</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                © 2025 Mid-Atlantic Vehicle Access. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Simple Animation Script -->
+    <script>
+        // Simple fade-in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        
+        // Observe all fade-in elements
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+      "description": "24/7 emergency car door unlock assistance in Baltimore and surrounding areas",
+      "serviceType": "Roadside Vehicle Door Unlock Assistance",
+      "telephone": "+19178627925",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Baltimore",
+        "addressRegion": "MD",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {"@type": "City", "name": "Baltimore"},
+        {"@type": "City", "name": "Towson"},
+        {"@type": "City", "name": "Columbia"},
+        {"@type": "City", "name": "Glen Burnie"},
+        {"@type": "City", "name": "Dundalk"}
+      ],
+      "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59",
+      "priceRange": "$$"
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        header p {
+            font-size: 1.4rem;
+            margin-bottom: 40px;
+            opacity: 0.95;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #fbbf24;
+            color: #1e3a8a;
+            padding: 20px 50px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(251, 191, 36, 0.4);
+        }
+        
+        .cta-button:hover {
+            background-color: #f59e0b;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(251, 191, 36, 0.5);
+        }
+        
+        /* Emergency Banner */
+        .emergency-banner {
+            background-color: #dc2626;
+            color: white;
+            text-align: center;
+            padding: 15px 20px;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        
+        /* Sections */
+        section {
+            padding: 80px 20px;
+        }
+        
+        section:nth-child(even) {
+            background-color: #f8fafc;
+        }
+        
+        section h2 {
+            font-size: 2.5rem;
+            color: #1e3a8a;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        section p {
+            font-size: 1.2rem;
+            color: #4b5563;
+            margin-bottom: 25px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        
+        /* Photo */
+        .photo-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .photo-container img {
+            max-width: 600px;
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        /* Features Grid */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin: 60px auto;
+            max-width: 1000px;
+        }
+        
+        .feature {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+        
+        .feature h3 {
+            color: #1e3a8a;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+        
+        .feature p {
+            color: #6b7280;
+            font-size: 1.1rem;
+            text-align: center;
+        }
+        
+        /* Areas */
+        .areas {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin: 40px auto;
+            max-width: 900px;
+            text-align: center;
+            line-height: 1.8;
+            font-size: 1.1rem;
+            color: #4b5563;
+        }
+        
+        /* Form */
+        .form-container {
+            background: white;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            max-width: 600px;
+            margin: 40px auto;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #374151;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e5e7eb;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-family: inherit;
+            transition: border-color 0.3s ease;
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #3b82f6;
+        }
+        
+        .submit-button {
+            width: 100%;
+            padding: 18px;
+            background-color: #1e3a8a;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .submit-button:hover {
+            background-color: #1e40af;
+        }
+        
+        /* Success Message */
+        .success-message {
+            display: none;
+            background-color: #10b981;
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #1f2937;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        
+        footer h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        
+        footer p {
+            color: #d1d5db;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        
+        footer a {
+            color: #fbbf24;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer-legal {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #374151;
+            color: #9ca3af;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        
+        /* Mobile */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+            
+            header p {
+                font-size: 1.2rem;
+            }
+            
+            .cta-button {
+                font-size: 1.1rem;
+                padding: 18px 35px;
+            }
+            
+            section {
+                padding: 60px 20px;
+            }
+            
+            section h2 {
+                font-size: 2rem;
+            }
+            
+            .form-container {
+                padding: 30px 20px;
+            }
+            
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>🚗 Locked Out? We'll Get You Back In!</h1>
+            <p>Fast, professional car door unlock service available 24/7 in Baltimore</p>
+            <a href="tel:+19178627925" class="cta-button">📞 Call Now: (917) 862-7925</a>
+            
+            <div style="margin-top: 30px; font-size: 0.9rem; opacity: 0.9;">
+                Professional roadside assistance • Automotive technicians • Emergency vehicle access
+            </div>
+        </div>
+    </header>
+    
+    <!-- Emergency Banner -->
+    <div class="emergency-banner">
+        🚨 Available 24/7 • Automotive Technicians • Roadside Vehicle Access • No Hidden Fees
+    </div>
+    
+    <!-- About -->
+    <section>
+        <div class="container">
+            <h2>Mid-Atlantic Vehicle Access - Professional Car Door Unlock</h2>
+            <p>Locked out of your car? Don't panic! Our experienced roadside technicians are standing by 24/7 to help you regain access to your vehicle quickly and safely.</p>
+            
+            <div class="photo-container">
+                <img src="https://thvnext.bing.com/th/id/OIP.YbTmFm82hlqSoEjzR9TKqAHaDt?w=600&h=300&c=7&r=0&o=7&cb=ucfimgc2&dpr=1.3&pid=1.7&rm=3" 
+                     alt="Professional technician using specialized tools to unlock car door">
+            </div>
+            
+            <p>Mid-Atlantic Vehicle Access uses professional automotive tools and techniques to unlock your vehicle without causing any damage. Our roadside service is fast, affordable, and available throughout Maryland including Baltimore, Washington DC metro area, and surrounding regions.</p>
+        </div>
+    </section>
+    
+    <!-- Features -->
+    <section>
+        <div class="container">
+            <h2>Why Choose Our Service?</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Fast Response</h3>
+                    <p>Quick arrival times across Baltimore County and surrounding areas</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Specialized Equipment</h3>
+                    <p>Safe, damage-free entry using proper automotive access tools</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">💰</div>
+                    <h3>Fair Pricing</h3>
+                    <p>Transparent, upfront pricing with no hidden fees or surprises</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🕐</div>
+                    <h3>24/7 Available</h3>
+                    <p>Day or night, weekends and holidays - we're always ready</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🚗</div>
+                    <h3>All Vehicles</h3>
+                    <p>Cars, trucks, SUVs, vans - we work on all makes and models</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📋</div>
+                    <h3>Licensed Service</h3>
+                    <p>Certified automotive technicians providing roadside assistance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Service Details -->
+    <section>
+        <div class="container">
+            <h2>Our Roadside Vehicle Access Service</h2>
+            <div class="areas">
+                <strong>What We Do:</strong> Emergency vehicle door unlock assistance when you're locked out<br>
+                <strong>How We Help:</strong> Automotive technicians use specialized tools to regain vehicle access<br>
+                <strong>Service Type:</strong> Roadside assistance for locked vehicle situations<br>
+                <strong>Coverage:</strong> Cars, trucks, SUVs, and vans throughout Baltimore area<br><br>
+                <em>Professional automotive service technicians available 24/7</em>
+            </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Areas -->
+    <section>
+        <div class="container">
+            <h2>Areas We Serve</h2>
+            <div class="areas">
+                <strong>Baltimore City:</strong> Downtown • Federal Hill • Canton • Fells Point • Inner Harbor • Mount Vernon • Charles Village • Hampden • Roland Park<br><br>
+                <strong>Baltimore County:</strong> Towson • Parkville • White Marsh • Dundalk • Essex • Rosedale • Lutherville-Timonium • Owings Mills • Pikesville • Cockeysville<br><br>
+                <strong>Howard County:</strong> Columbia • Ellicott City • Jessup • Elkridge • Laurel • Clarksville<br><br>
+                <strong>Anne Arundel County:</strong> Glen Burnie • Pasadena • Severna Park • Ferndale • Linthicum • Annapolis • Crofton • Odenton<br><br>
+                <strong>Harford County:</strong> Bel Air • Aberdeen • Havre de Grace • Edgewood • Joppa<br><br>
+                <strong>Carroll County:</strong> Westminster • Eldersburg • Sykesville • Mount Airy<br><br>
+                <em>Serving the entire Mid-Atlantic region including Maryland, DC metro area, and surrounding areas</em>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Form -->
+    <section>
+        <div class="container">
+            <h2>Request a Callback</h2>
+            <p>Can't call right now? Fill out this form and we'll contact you shortly.</p>
+            
+            <form class="form-container" name="contact" method="POST" netlify>
+                <!-- Honeypot field for spam protection -->
+                <p style="display: none;">
+                    <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                </p>
+                
+                <div class="form-group">
+                    <label for="name">Your Name *</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="(443) 555-1234">
+                </div>
+                
+                <div class="form-group">
+                    <label for="location">Your Location *</label>
+                    <input type="text" id="location" name="location" required placeholder="City or zip code">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Additional Details (Optional)</label>
+                    <textarea id="message" name="message" rows="3" placeholder="Car make/model, parking situation, etc."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button">Request Callback</button>
+                
+                <div class="success-message" id="successMessage">
+                    ✅ Thank you! We've received your request and will call you back within 15 minutes.
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h3>Mid-Atlantic Vehicle Access</h3>
+            <p><strong>Phone:</strong> <a href="tel:+19178627925">(917) 862-7925</a></p>
+            <p><strong>Hours:</strong> 24/7</p>
+            <p><strong>Service Area:</strong> Baltimore Metro Area</p>
+            
+            <div class="footer-legal">
+                Mid-Atlantic Vehicle Access - Professional roadside vehicle door unlock assistance.<br>
+                Licensed and insured automotive service technicians.<br>
+                © 2025 Mid-Atlantic Vehicle Access. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Simple Form Handler -->
+    <script>
+        // Wait for page to load
+        window.addEventListener('load', function() {
+            const form = document.querySelector('form[name="contact"]');
+            const successMessage = document.getElementById('successMessage');
+            
+            if (form && successMessage) {
+                form.addEventListener('submit', function(e) {
+                    // Let the form submit naturally to Netlify first
+                    
+                    // Show success message after a short delay
+                    setTimeout(function() {
+                        successMessage.style.display = 'block';
+                        successMessage.scrollIntoView({ behavior: 'smooth' });
+                        form.style.display = 'none';
+                    }, 100);
+                });
+            }
+        });
+    </script>
+
+    <!-- Hidden form for Netlify detection -->
+    <form name="contact" netlify hidden>
+        <input type="text" name="name" />
+        <input type="tel" name="phone" />
+        <input type="text" name="location" />
+        <textarea name="message"></textarea>
+    </form>
+
+</body>
+</html>
